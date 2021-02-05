@@ -1,9 +1,10 @@
 def main ():
-    A = set()
-    B = set()
+    
     
     repetir = True
     while repetir:
+        A = set()
+        B = set()
         n = int(input("Ingrese cuntos elementos tiene el conjunto A\n"))
         for i in range(n):
             n1 = float(input(f"Ingrese el numero {i+1} del conjunto A: "))
