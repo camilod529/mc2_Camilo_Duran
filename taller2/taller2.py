@@ -74,7 +74,7 @@ def main():
     print(f"A diferencia simetrica (C u D): {diferencia_simetrica(A, union(C, D))}")
     print("-" * 80 + "\n")
 
-    #(C A)^(BnD)
+    #(C-A)^(BnD)
     print(f"(C diferencia A) diferencia simetrica (B n D): {diferencia_simetrica(diferencia(C,A),interseccion(B, D))}")
     print("-" * 80 + "\n")
 
