@@ -1,3 +1,5 @@
+#modelo exponencial
+
 import math
 
 def main():
